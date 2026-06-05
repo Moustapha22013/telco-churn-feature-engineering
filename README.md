@@ -13,8 +13,8 @@ feautureEng/
 ├── data/
 │   ├── WA_Fn-UseC_-Telco-Customer-Churn.csv   ← Données brutes (7 043 × 21)
 │   └── processed/
-│       ├── X_train.csv / X_test.csv            ← Features prétraitées (29)
-│       ├── X_train_selected.csv / X_test_selected.csv  ← Features sélectionnées (24)
+│       ├── X_train.csv / X_test.csv            ← Features prétraitées 
+│       ├── X_train_selected.csv / X_test_selected.csv  ← Features sélectionnées 
 │       ├── y_train.csv / y_test.csv
 │       ├── scaler.pkl                          ← StandardScaler sauvegardé
 │       ├── selected_features.json              ← Shortlist consensus
