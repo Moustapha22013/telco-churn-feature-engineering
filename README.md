@@ -1,7 +1,6 @@
 # Prédiction du Churn Client — Télécommunications
 
-**Cours :** Techniques de sélection et évaluation des modèles  
-**Enseignant :** Ing. Abdel-Hamid MOHAMED CHEIKH, SupNum  
+
 **Dataset :** [Telco Customer Churn — Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
 ---
