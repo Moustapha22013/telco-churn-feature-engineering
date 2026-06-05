@@ -27,11 +27,10 @@ feautureEng/
 │   └── 04_modeling_experiments.ipynb ← 12 expériences, ROC, validation croisée
 │
 ├── reports/
-│   ├── rapport.pdf                 ← RAPPORT FINAL (22 pages)
-│   ├── rapport.tex                 ← Source LaTeX
+│   ├── rapport.pdf                 
+│   
 │   └── *.png                       ← 32 graphiques générés
 │
-├── syllabus/                       ← Supports de cours
 ├── .gitignore
 └── README.md
 ```
