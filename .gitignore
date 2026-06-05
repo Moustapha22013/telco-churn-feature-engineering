@@ -7,17 +7,30 @@ __pycache__/
 venv/
 *.egg-info/
 
-# Jupyter
+# Jupyter checkpoints
 .ipynb_checkpoints/
 
-# Data & models (large binary files)
-data/processed/*.pkl
-data/processed/*.csv
+# Large binary files — ne pas versionner
 *.pkl
+data/processed/X_*.csv
+data/processed/y_*.csv
 
-# Keep raw data (small enough)
+# Garder les artefacts légers de sélection
+!data/processed/selected_features.json
+!data/processed/experiment_results.csv
+
+# Données brutes (légères, à versionner)
 !data/WA_Fn-UseC_-Telco-Customer-Churn.csv
-!data/telco_churn_loaded.csv
+
+# Fichiers LaTeX auxiliaires
+reports/*.aux
+reports/*.log
+reports/*.out
+reports/*.toc
+reports/*.synctex.gz
+
+# Garder le PDF final
+!reports/rapport.pdf
 
 # OS
 .DS_Store

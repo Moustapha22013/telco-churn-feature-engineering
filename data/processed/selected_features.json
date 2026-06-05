@@ -18,9 +18,7 @@
   "SeniorCitizen",
   "OnlineBackup",
   "DeviceProtection",
-  "tenure_group",
   "AvgMonthlySpend",
   "PaymentMethod_Credit card (automatic)",
-  "PaymentMethod_Bank transfer (automatic)",
-  "num_services"
+  "PaymentMethod_Bank transfer (automatic)"
 ]
