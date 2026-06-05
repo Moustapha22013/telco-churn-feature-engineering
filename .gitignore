@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & models (large binary files)
+data/processed/*.pkl
+data/processed/*.csv
+*.pkl
+
+# Keep raw data (small enough)
+!data/WA_Fn-UseC_-Telco-Customer-Churn.csv
+!data/telco_churn_loaded.csv
+
+# OS
+.DS_Store
+Thumbs.db
